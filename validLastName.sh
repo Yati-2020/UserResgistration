@@ -1,7 +1,7 @@
 #!/bin/bash
 
 read -p "Enter Last Name : " lastName
-lastNamePattern="^[[:upper:]]{1}[[:lower:]]{2,}$"
+lastNamePattern="^[A-Z]{1}[a-z]{2,}$"
 if [[ $lastName =~ $lastNamePattern ]]
 then
         echo Valid

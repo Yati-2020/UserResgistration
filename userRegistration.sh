@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo "Welcome to User Registration"
+echo "Welcoming user"
+
